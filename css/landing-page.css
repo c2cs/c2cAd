@@ -64,6 +64,20 @@ h6 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
+.content-section-a h4 {
+    line-height: 20px;
+}
+
+ul.adUL
+{
+    list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAMAAAC38k/IAAAAeFBMVEUyxi8yxi8yxi8yxi8yxi8yxi8yxi8yxi8yxi8yxi8yxi8yxi8yxi8yxi8yxi8yxi8yxi8yxi8yxi8yxi8yxi8yxi8yxi8yxi8yxi8yxi8yxi8yxi8yxi8yxi8yxi8yxi8yxi8yxi8yxi8yxi8yxi8yxi8yxi8yxi+ZBagbAAAAJ3RSTlMABRAhJygqLjAyNjs/RVpfZWtzd3ukqLy9xMfk5+jq7O/w8/X8/f6BA2qHAAAAT0lEQVQImWWMRQ7AQAACqbu7+/L/H3ZTu5TTQMgAb8JC+TjaWQJ3jw9uAdQ2k5wIrj5QkTlSwcWTmz2SNTm719vsSU7O49E7DtZn1RoD/5xrVAUvISD2fgAAAABJRU5ErkJggg==);
+}
+
+ul.adUL li
+{
+    padding-bottom: 0.75em;
+}
+
 @media(max-width:767px) {
     .intro-message {
         padding-bottom: 15%;
