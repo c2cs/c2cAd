@@ -120,6 +120,24 @@ ul.adUL li
     border-bottom: 1px solid #e7e7e7;
 }
 
+.content-section-c-dark {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section-c-light {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.row h2.subtitle {
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    color: #326CA6;
+}
+
 .section-heading {
     margin-bottom: 30px;
 }
@@ -131,15 +149,17 @@ ul.adUL li
 }
 
 .banner {
+    text-align: center;
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background: url(../img/sam_background_nologo_1920X1200.jpg) no-repeat center center;
     background-size: cover;
 }
 
-.banner h2 {
-    margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+.banner H2
+{
+    margin: 0 0 20px 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
     font-size: 3em;
 }
 
@@ -182,6 +202,27 @@ footer {
     background-color: #f8f8f8;
 }
 
+footer ul {
+    list-style-type: none;
+}
+
 p.copyright {
     margin: 15px 0 0;
 }
+
+.singleLine {
+    margin-left: 1em;
+}
+
+.partners {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 0%;
+}
+
+.partner-images li {
+    float: left;
+    min-width: 25%;
+    text-align: center;
+}
+
