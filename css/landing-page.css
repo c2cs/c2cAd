@@ -163,6 +163,10 @@ ul.adUL li
     font-size: 3em;
 }
 
+.banner p {
+    font-size: 1.3em;
+}
+
 .banner ul {
     margin-bottom: 0;
 }
@@ -181,7 +185,7 @@ ul.adUL li
 
 @media(max-width:767px) {
     .banner h2 {
-        margin: 0;
+        margin: 0 0 20px 0;
         text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
         font-size: 3em;
     }
@@ -214,15 +218,11 @@ p.copyright {
     margin-left: 1em;
 }
 
-.partners {
-    width: 100%;
-    padding-left: 20px;
-    padding-right: 0%;
+.middle {
+    text-align: center;
 }
 
-.partner-images li {
-    float: left;
-    min-width: 25%;
-    text-align: center;
+.list-inline li {
+    margin: 10px 5px 0 5px;
 }
 
